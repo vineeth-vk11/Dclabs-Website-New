@@ -1,0 +1,330 @@
+html{
+    scroll-behavior: smooth;
+    transition: all 0.25s;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+  
+.s1{
+    width: 100%;
+    z-index: 9999;
+}
+.navbar{
+    padding: 1% 3%;
+    background: #F2F5F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo{
+    width: 100%;
+}
+.navbar-brand{
+    text-align: center;
+    width:20%;
+    padding: 0;
+    margin: 0;
+}
+.navbar-toggler{
+    padding: 0;
+    width: 10%;
+}
+.navbar-collapse{
+    margin-left: 12%;
+}
+.navbar-nav{
+width: 100%;
+}
+  
+.nav-item{
+    margin: 1% ;
+}
+.nl1{
+    margin-top: 5%;
+}
+.nav-link{
+  font-weight: 400;
+  color: black;
+  font-size: 1.2vw;
+  text-align: center;
+  transition: 0.2s;
+  padding: 0;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    color: black;
+
+}
+.ni1{
+    width: 20%;
+}
+.btn1{
+    font-size: 1.2vw;
+    color: white;
+    background-color: black;
+    padding: 3% 8%;
+    transition: 0.2s;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.c1{
+    padding:12% 2%;
+    margin-top:80px ;
+    background: #F2F5F7;
+    text-align: center;
+  }
+.table{
+    width: 100%;
+    border-top: 0;
+}
+.table td{
+    border-top: 0;
+ 
+}
+tr{
+    border: 0;
+}
+
+.p1{
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+.td1{
+    width: 5%;
+}
+.td2{
+    width: 95%;
+}
+.img16{
+    width: 55%;
+}
+.c2{
+    padding:12% 2%;
+  }
+  .r2{
+      width: 100%;
+      margin: 0;
+  }
+  .empty1{
+      width: 80%;
+  }
+  .h1{
+      margin-top: 15%;
+    font-size: 1.6vw;
+    font-weight: 600;
+  }
+  .p2{
+      margin-top: 5%;
+    font-size: 1.4vw;
+    font-weight: 300;
+}
+
+.c3{
+    padding:5%;
+    text-align: center;
+  }
+.h2{
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+.col21{
+    border:1px solid #D9D8D8;
+    border-radius: 30px;
+    padding:6% 0;
+    transition: 0.2s;
+    margin: 5% 2%;
+}
+.col21:hover{
+    transform: scale(1.05);
+}
+.col22{
+    padding: 10%;
+}
+.empty{
+    width: 100%;
+}
+.p3{
+    margin-top: 30%;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+.btn2{
+    font-size: 1.4vw;
+    color: white;
+    background-color: black;
+    padding: 3% 5%;
+    transition: 0.2s;
+}
+.btn2:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+
+
+
+.footer{
+    background: #F2F5F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 4% 10% 2%;
+    color: black;
+}
+.links{
+    color: black;
+    font-size: 1.1vw;
+    font-weight: 3000;
+}
+.links:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.r8{
+    margin-top: 5%;
+    text-align: center;
+}
+.p12{
+    font-size: 1.4vw;
+    color: black;
+    font-weight: 600;
+}
+.p13{
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+.p14{
+    margin-top: 3%;
+    color: black;
+    font-size: 1.1vw;
+    text-align: center;
+}
+.logo1{
+    width: 60%;
+}
+@media (max-width: 1110px){
+
+.c1{
+    margin-top: 60px;
+}
+
+  }
+@media (max-width: 991px){
+
+    .nav-link{
+      font-size: 1.2vw;
+      
+    }
+    .btn1{
+        font-size: 1.2vw;
+    }
+    .p3{
+        font-size: 2.5vw;
+    }
+  }
+@media (max-width: 767px){
+    .c1{
+        margin-top: 40px;
+    }
+    #brand-name{
+        font-size: 5vw;
+    }
+    .navbar-collapse{
+        margin-left: 0%;
+    }
+    .ni1{
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 35%;
+        margin-left: 32%;
+    }
+    .nav-link{
+        font-size: 3vw;
+    }
+    .btn1{
+        font-size: 3vw;
+    }
+    .nav-item{
+        margin: 1% 0%;
+    }
+    .nl1{
+        margin-top: 0;
+    }
+   .c1{
+       text-align: center;
+   }
+    .h1{
+    font-size: 4.2vw;
+    }
+    .p1{
+        font-size: 3.2vw;
+        width: 100%;
+    }
+    .input{
+        font-size: 3vw;
+    }
+    .btn2{
+        font-size: 3vw;
+    }
+    .btn3{
+        font-size: 2vw;
+    }
+    .h2{
+        font-size: 4.2vw;
+    }
+   
+    .p2{
+        font-size: 4.6vw;
+    }
+
+    .p10{
+        font-size: 4.6vw;
+    }
+    .p11{
+        font-size: 3.4vw;
+    }
+    .btn6{
+        font-size: 3.2vw;
+    }
+    .links{
+        font-size: 3vw;
+        text-align: center;
+    }
+    .r6{
+        text-align: center;
+    }
+    .p12{
+        margin-top: 20%;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .p13{
+        font-size: 2.7vw;
+        text-align: center;
+    }
+    .p14{
+        font-size: 2.5vw;
+    }
+    .p3{
+        margin-top: 5%;
+        font-size: 4vw;
+    }
+}
+  @media (max-width: 575px){
+    .c1{
+        margin-top: 30px;
+    }
+    .image1{
+        margin-top: 0;
+    }
+    .nav-link{
+        font-size: 4vw;
+    }
+    .btn1{
+        font-size: 4vw;
+    }
+} 

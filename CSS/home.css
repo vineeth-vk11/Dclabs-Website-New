@@ -1,0 +1,548 @@
+html{
+    scroll-behavior: smooth;
+    transition: all 0.25s;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+  
+.s1{
+    width: 100%;
+    z-index: 9999;
+}
+.navbar{
+    padding: 1% 3%;
+    background: #191C2F;
+}
+.logo{
+    width: 100%;
+}
+.navbar-brand{
+    text-align: center;
+    width:20%;
+    padding: 0;
+    margin: 0;
+}
+.navbar-toggler{
+    padding: 0;
+    width: 10%;
+}
+.navbar-collapse{
+    margin-left: 15%;
+}
+.navbar-nav{
+width: 100%;
+}
+  
+.nav-item{
+    margin: 2% ;
+}
+.nl1{
+    margin-top: 5%;
+}
+.nav-link{
+  font-weight: 400;
+  color: rgba(224, 224, 224, 0.7);
+  font-size: 1.4vw;
+  text-align: center;
+  transition: 0.2s;
+  padding: 0;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    color: rgba(224, 224, 224, 0.7);
+
+}
+.ni1{
+    width: 20%;
+}
+.btn1{
+    font-size: 1.4vw;
+    color: white;
+    background-color: transparent;
+    padding: 3% 6%;
+    transition: 0.2s;
+    color:#3FF81E;
+    border: 1px solid #3FF81E;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    color:#3FF81E
+}
+.c1{
+    padding:10% 6%;
+    margin-top:80px ;
+    background: radial-gradient(50% 50% at 50% 50%, #20243E 0%, #090D28 100%);
+  }
+  .table1{
+      width: 100%;
+  }
+.img14{
+    width: 90%;
+}
+
+.h1{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.2vw;
+    line-height: 1.6;
+    width: 100%;
+    color: white;
+}
+.p1{
+    margin: 3% 0;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.2;
+    color: white;
+    width: 75%;
+    text-align: justify;
+}
+.btn2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #191C2F;
+    background-color:#3FF81E;
+    padding: 3%;
+    transition: 0.2s;
+    margin-right: 4%;
+    border-radius: 0;
+
+}
+.btn2:hover{
+    transform: scale(1.05);
+}
+.btn3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    color: #3FF81E;
+    background-color: #191C2F ;
+    padding: 3% 6%;
+    transition: 0.2s;
+    border: 1px solid #3FF81E;
+    border-radius: 0;
+}
+.btn3:hover{
+    color: #3FF81E;
+    transform: scale(1.05);
+}
+
+.c2{
+    background-color: white;
+    text-align: center;
+    padding:5%;
+}
+.h2{
+    font-weight: bolder;
+    font-size: 3.4vw;
+    color: #191C2F;
+    
+}
+.r2{
+    margin-top: 5%;
+}
+.col2{
+    padding: 1.5%;
+    text-align: center;
+}
+.col21{
+    border:1px solid #D9D8D8;
+    border-radius: 30px;
+    padding:6%;
+    transition: 0.2s;
+}
+.col21:hover{
+    transform: scale(1.05);
+}
+.img{
+    width: 100%;
+}
+.p2{
+    font-size: 1.6vw;
+    font-weight: bold;
+    color: #1F233D;
+    margin: 10% 0 5%;
+}
+.p3{
+    font-size: 1vw;
+    font-weight: 400;
+    color: #1F233D;
+}
+
+.c3{
+    background: linear-gradient(180deg, #20243E 0%, #090D28 100%);
+    text-align: center;
+    padding:5% 15%;
+}
+.r3{
+    margin-top: 5%;
+}
+.h3{
+    font-weight: bolder;
+    font-size: 3.4vw;
+    color: #3FF81E;
+    
+}
+.col3{
+    padding: 3%;
+    text-align: center;
+}
+.col31{
+    background-color: white;
+    border-radius: 30px;
+    padding:6%;
+    transition: 0.2s;
+}
+.col31:hover{
+    transform: scale(1.05);
+}
+.c4{
+    position: relative;
+    text-align: center;
+    padding:5% 10%;
+}
+.p4{
+    font-size: 2vw;
+    font-weight: 400;
+    color: #191C2F;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.p5{
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #191C2F;
+    margin: 10% 0 5%;
+}
+.p6{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: #272A3C;
+    width: 60%;
+    text-align: justify;
+}
+.col41{
+    text-align: left;
+    padding-top: 3%;
+}
+.img1{
+    width: 80%;
+}
+.r4{
+    margin: 3% 0;
+}
+.logo1{
+    position: absolute;
+    top: 45%;
+    
+    transform: rotate(-90deg);
+    left: -5%;
+    width: 20%;
+}
+.img11{
+    width: 2%;
+    position: absolute;
+    top: 35%;
+    right: 6%;
+}
+.c5{
+    position: relative;
+    background: linear-gradient(180deg, #20243E 0%, #090D28 100%);
+    text-align: center;
+    padding:5% 15%;
+}
+
+.p7{
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: white;
+    text-align: justify;
+    margin-top: 5%;
+}
+.p8{
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+    margin-top: 5%;
+}
+.p9{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+}
+.r5{
+    margin: 10% 0 5%;
+}
+.person1{
+    width: 80%;
+}
+.img15{
+    position: absolute;
+    width: 12%;
+    left: 0;
+    top:15%
+}
+.btn4{
+    width: 10%;
+    margin: 0 3%;
+    background-color: transparent;
+    padding: 1%;
+    transition: 0.2s;
+    border: 1px solid white;
+    border-radius: 0;
+}
+.btn4:hover{
+    transform: scale(1.05);
+}
+.btn5{
+    width: 10%;
+    margin: 0 3%;
+    background-color: transparent;
+    padding:1%;
+    transition: 0.2s;
+    border: 1px solid #3FF81E;
+    border-radius: 0;
+}
+.btn5:hover{
+    transform: scale(1.05);
+}
+.arrow{
+    width: 100%;
+}
+.c6{
+    text-align: center;
+    padding:5% 20%;
+}
+.img12{
+    width: 60%;
+}
+.p10{
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: black;
+    margin-top: 15%;
+}
+.p11{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: black;
+    text-align: justify;
+    margin-top: 5%;
+}
+.btn6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    color: #20243E;
+    background-color: transparent ;
+    padding: 1%;
+    transition: 0.2s;
+    border: 1px solid #20243E;
+    border-radius: 0;
+    width: 55%;
+    margin-top: 5%;
+}
+.btn6:hover{
+    color: #20243E;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.footer{
+    background: #20243E;
+    padding: 4% 10% 2%;
+    color: white;
+}
+.links{
+    color: white;
+    font-size: 1.1vw;
+    margin: 4% 0;
+}
+.links:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+.p12{
+    font-size: 1.4vw;
+}
+.p13{
+    font-size: 1.1vw;
+}
+.p14{
+    margin-top: 6%;
+    color: rgba(186, 186, 186, 0.5);
+    font-size: 1.1vw;
+    text-align: center;
+}
+@media (max-width: 1110px){
+
+.c1{
+    margin-top: 60px;
+}
+
+  }
+@media (max-width: 991px){
+
+    .nav-link{
+      font-size: 1.4vw;
+      
+    }
+    .nav-link{
+        font-size: 1.3vw;
+    }
+    .btn1{
+        font-size: 1.3vw;
+    }
+  }
+@media (max-width: 767px){
+    .c1{
+        margin-top: 40px;
+    }
+    #brand-name{
+        font-size: 5vw;
+    }
+    .navbar-collapse{
+        margin-left: 0%;
+    }
+    .ni1{
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 35%;
+        margin-left: 32%;
+    }
+    .nav-link{
+        font-size: 3vw;
+    }
+    .btn1{
+        font-size: 3vw;
+    }
+    .nav-item{
+        margin: 1% 0%;
+    }
+    .nl1{
+        margin-top: 0;
+    }
+   .c1{
+       text-align: center;
+   }
+    .h1{
+    font-size: 4.2vw;
+    }
+    .p1{
+        font-size: 2.2vw;
+        width: 100%;
+    }
+    .btn2{
+        font-size: 2vw;
+    }
+    .btn3{
+        font-size: 2vw;
+    }
+    .h2{
+        font-size: 4.2vw;
+    }
+    .r2{
+        padding: 0 15%;
+    }
+    .p2{
+        font-size: 4.6vw;
+    }
+    .p3{
+        font-size: 3.8vw;
+    }
+    .h3{
+        font-size: 4.2vw;
+    }
+    .p4{
+        font-size: 3.8vw;
+    }
+    .p5{
+        font-size: 4.6vw;
+        text-align: center;
+
+    }
+    .p6{
+        font-size: 3.8vw;
+        width: 100%;
+        text-align: center;
+    }
+    .logo1{
+        top: 45%;
+        left: -8%;
+        width: 30%;
+    }
+    .img11{
+        width: 5%;
+        position: absolute;
+        top: 35%;
+        right: 6%;
+    }
+    .p7{
+        margin-top: 20%;
+        font-size: 4.6vw;
+        text-align:center;
+    }
+    .p8{
+        font-size: 3.6vw;
+        text-align:center;
+    }
+    .p9{
+        font-size: 3.4vw;
+        text-align:center;
+    }
+    .p10{
+        font-size: 4.6vw;
+    }
+    .p11{
+        font-size: 3.4vw;
+    }
+    .btn6{
+        font-size: 3.2vw;
+    }
+    .links{
+        font-size: 3vw;
+        text-align: center;
+    }
+    .r6{
+        text-align: center;
+    }
+    .p12{
+        margin-top: 20%;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .p13{
+        font-size: 2.7vw;
+        text-align: center;
+    }
+    .p14{
+        font-size: 2.5vw;
+    }
+}
+  @media (max-width: 575px){
+    .c1{
+        margin-top: 30px;
+    }
+    .image1{
+        margin-top: 0;
+    }
+    .nav-link{
+        font-size: 4vw;
+    }
+    .btn1{
+        font-size: 4vw;
+    }
+} 
